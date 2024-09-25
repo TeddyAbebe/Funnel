@@ -7,7 +7,7 @@ const apiClient = axios.create({
   },
 });
 
-// Set Authorization header dynamically if needed
+// Set Authorization header 
 export const setAuthToken = (token: string) => {
   apiClient.defaults.headers.common["Authorization"] = `Bearer ${token}`;
 };
