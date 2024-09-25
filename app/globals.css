@@ -25,3 +25,53 @@ body {
     text-wrap: balance;
   }
 }
+
+/* Custom Tailwind Styling for DatePicker */
+.tailwind-datepicker {
+  @apply bg-[#32797B]  text-gray-200 p-4 rounded-xl !important;
+}
+
+.react-datepicker__header {
+  @apply bg-[#32797B] p-3 rounded-t-lg text-gray-200 !important;
+}
+
+.react-datepicker__current-month {
+  @apply text-xl font-bold text-gray-200 !important;
+}
+
+.react-datepicker__day-names {
+  @apply flex justify-around text-gray-400 !important;
+}
+
+.react-datepicker__day {
+  @apply font-medium bg-[#357072] text-white rounded-full hover:text-[#132F47] !important;
+}
+
+.react-datepicker__day--selected {
+  @apply bg-[#D7B398] text-[#132F47] font-bold !important;
+}
+
+.react-datepicker__day--today {
+  @apply bg-[#D7B398] text-yellow-700 !important;
+}
+
+.react-datepicker__day--disabled {
+  @apply text-gray-500 cursor-not-allowed !important;
+}
+
+.react-datepicker__navigation {
+  @apply top-3 !important;
+}
+
+.react-datepicker__navigation--previous,
+.react-datepicker__navigation--next {
+  @apply border-transparent hover:border-[#D7B398] !important;
+}
+
+.react-datepicker__navigation-icon::before {
+  @apply text-[#D7B398] !important;
+}
+
+.react-datepicker__month {
+  @apply mt-3 !important;
+}
