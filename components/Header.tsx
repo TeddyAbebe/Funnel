@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export const Header = () => {
@@ -15,15 +16,27 @@ export const Header = () => {
       </div>
 
       <div className="flex w-1/2 justify-center gap-5">
-        <p className="font-semibold hover:underline cursor-pointer underline-offset-4">
+        <Link
+          href={"/step-1"}
+          className="font-semibold hover:underline cursor-pointer underline-offset-4"
+        >
           Step 1
-        </p>
-        <p className="font-semibold hover:underline cursor-pointer underline-offset-4">
+        </Link>
+
+        <Link
+          href={"/step-2"}
+          className="font-semibold hover:underline cursor-pointer underline-offset-4"
+        >
           Step 2
-        </p>
-        <p className="font-semibold hover:underline cursor-pointer underline-offset-4">
+        </Link>
+
+        <Link
+          href={"/step-3"}
+          className="font-semibold hover:underline cursor-pointer underline-offset-4"
+        >
           Step 3
-        </p>
+        </Link>
+
         <p className="font-semibold hover:underline cursor-pointer underline-offset-4">
           Trainings
         </p>
