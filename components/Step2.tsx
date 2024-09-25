@@ -25,16 +25,16 @@ export const Step2 = () => {
         </p>
 
         <div className="w-full flex justify-between">
-          <Button className="w-1/5">
-            <Link href={"/step-1"}>&lt; Back</Link>
-          </Button>
+          <Link href={"/step-1"} className="w-1/5">
+            <Button className="w-full">&lt; Back</Button>
+          </Link>
 
-          <Button className="w-1/3">
-            <Link href={"/Booking"}>Book your call &gt;</Link>
-          </Button>
-          <Button className="w-1/5">
-            <Link href={"/step-3"}>Next &gt;</Link>
-          </Button>
+          <Link href={"/Booking"} className="w-1/3">
+            <Button className="w-full">Book your call &gt;</Button>
+          </Link>
+          <Link href={"/step-3"} className="w-1/5">
+            <Button className="w-full">Next &gt;</Button>
+          </Link>
         </div>
       </div>
     </div>
