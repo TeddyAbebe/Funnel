@@ -1,10 +1,10 @@
-import Step3 from "@/components/Step3";
+import AppointmentCard from "@/components/AppointmentCard";
 import React from "react";
 
 const page = () => {
   return (
     <div>
-      <Step3 />
+      <AppointmentCard />
     </div>
   );
 };

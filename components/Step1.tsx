@@ -1,6 +1,7 @@
 import React from "react";
 import { Header } from "./Header";
 import Button from "./ui/Button";
+import Link from "next/link";
 
 export const Step1 = () => {
   return (
@@ -26,7 +27,9 @@ export const Step1 = () => {
           continue to step 2.
         </p>
 
-        <Button className="w-1/3">Next &gt;</Button>
+        <Button className="w-1/3">
+          <Link href={"/step-2"}>Next &gt;</Link>
+        </Button>
       </div>
     </div>
   );
