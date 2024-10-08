@@ -7,7 +7,6 @@ export const Step2 = () => {
   return (
     <div className="min-h-screen px-10 md:px-0 bg-gradient-to-r from-[#132F47] to-[#4C4F50] flex flex-col items-center justify-around">
       <Header />
-
       <header className="text-center">
         <h1 className="text-2xl font-bold text-white">Step 2</h1>
       </header>
